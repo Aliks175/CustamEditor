@@ -1,14 +1,14 @@
 using UnityEditor;
 using UnityEngine;
 
-public class Test : EditorWindow
+public class Colorizator : EditorWindow
 {
     private Color _color;
 
-    [MenuItem("Tools/Test/Show ")]
+    [MenuItem("Tools/ColorChanger _F4")]
     public static void ShowWindow()
     {
-        GetWindow<Test>("Example");
+        GetWindow<Colorizator>("Color Changer");
     }
 
     public void OnGUI()
